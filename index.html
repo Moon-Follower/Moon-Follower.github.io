@@ -57,7 +57,11 @@
         <div class="image">
           <img class="img-1" src="img/nightsityimgrigt1.svg" alt="">
           <img class="img-2" src="img/nightsityimgrigt2.svg" alt="">
-          <img class="img-3" src="img/nightsityimgrigt3.svg" alt="">
+          <picture>
+            <source srcset="img/nightsityimgrigt3.svg" media="(min-width: 1400px)" />
+            <source srcset="img/nightsityimgrigt3Medium.svg" media="(min-width: 990px)" />
+            <img class="img-3" src="img/nightsityimgrigt3Mobile.svg" alt="" />
+          </picture>
         </div>
       </div>
     </div>
@@ -65,12 +69,16 @@
     <div class="container play-and-win">
       <div class="container">
         <div class="text-container-play">
-          <div class="sale"><img src="img/akciya.svg" alt=""></div>
+          <picture class="sale">
+            <source srcset="img/akciya.svg" media="(min-width: 1400px)" />
+            <source srcset="img/akciyaMedium.svg" media="(min-width: 990px)" />
+            <img src="img/akciyaMobile.svg" alt="" />
+          </picture>
           <h1>Играй и выигрывай!</h1>
         </div>
         <h2 class="play-and-win-txt">Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony
           PlayStation 5! Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1
-          февраля. Удачи! ;)</h2>
+          февраля. Удачи!</h2>
         <div class="under-text-container">
           <div class="form-message">
             <input type="text" name="Name" class="form-to-text" placeholder="Как тебя зовут?">
@@ -90,7 +98,12 @@
               <label for="checkbox">Согласен на обработку персональных данных</label>
             </div>
           </div>
-          <div class="console-images"><img src="img/XboxPlaystationBig.svg" alt=""></div>
+          <picture class="console-images">
+            <source srcset="img/XboxPlaystationBig.svg" media="(min-width: 1400px)" />
+            <source srcset="img/XboxPlaystationMedium.svg" media="(min-width: 990px)" />
+            <img src="img/XboxPlaystationMobile.svg" alt="" />
+          </picture>
+
         </div>
       </div>
     </div>
@@ -99,9 +112,18 @@
       <div class="container">
         <div class="diving-container">
           <div class="monitor-img">
-            <img src="img/Monitor.svg" alt="">
-            <img src="img/UnderMonitor.svg" alt="">
+            <picture class="">
+              <source srcset="img/Monitor.svg" media="(min-width: 1400px)" />
+              <source srcset="img/MonitorMedium.svg" media="(min-width: 990px)" />
+              <img src="img/MonitorMobile.svg" alt="" />
+            </picture>
+            <picture class="">
+              <source srcset="img/UnderMonitor.svg" media="(min-width: 1400px)" />
+              <source srcset="img/UnderMonitorMedium.svg" media="(min-width: 990px)" />
+              <img src="img/UnderMonitorMobile.svg" alt="" />
+            </picture>
           </div>
+
           <div class="diving-text">
             <h1>Полное погружение вместе с HP</h1>
             <h2>Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8
@@ -131,7 +153,7 @@
           <h1>Купить игру Cyberpunk 2077</h1>
           <div class="buy-texts-conteiner">
             <p class="blue-text">В комплект входит:</p>
-            <div class="buy-game-img-conteiner"><img src="img/disk.svg" alt="">
+            <div class="buy-game-img-conteiner1"><img src="img/disk.svg" alt="">
               <p class="buy-text">Футляр с игровыми дисками</p>
             </div>
             <div class="buy-game-img-conteiner"><img src="img/wysiwyg.svg" alt="">
@@ -142,7 +164,7 @@
             </div>
           </div>
           <div class="sellect-platform">
-            <p class="blue-text">Выберите платформу:</p>
+            <p class="blue-text change-platform">Выберите платформу:</p>
             <div class="platforms">
               <div class="img-allign">
                 <img src="img/PC.svg" alt="">
